@@ -1,0 +1,125 @@
+#container{
+    text-align: center;
+}
+
+
+#logo{
+    margin-top: 35px;
+}
+
+.heading{
+    margin-top: 20px;
+    font-family: 'Pacifico', cursive;
+
+}
+#form-container{
+    margin-top: 10px;
+    margin-left: 25%;
+    text-align: center;     
+    width: 50;                            
+    max-width: 50%;
+    /* background-color: lightblue; */
+    background: linear-gradient(#34eb5b 0%, #34ebb7 100%);
+}
+
+.col-form-label{
+    font-size: 20px;
+}
+
+.btn-primary{
+    font-size: 20px;
+    width: 40%;
+    margin-bottom: 10px;   
+}
+
+.btn-success{
+    margin-top: 20px;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.email-label{
+    margin-top: 10px;
+}
+
+@media only screen and (min-width: 768px) {
+    .col-form-label{
+        margin-left: 10px;
+        font-size: 20px;
+    }
+    #email{
+        margin-left: 25px;
+        margin-top: 10px;
+        border-radius: 10px;
+        border: 2px solid white;
+        font-size: 20px;
+        font-family: Tahoma;
+        
+    }
+    #password{
+        margin-left: 25px;
+        border-radius: 10px;
+        border: 2px solid white;
+        font-size: 20px;
+        font-family: Tahoma;
+        margin-bottom: 10px;
+    }
+}
+@media only screen and (min-width: 992px) {
+    #form-container{
+        margin-top: 10px;
+        margin-left: 25%;
+        text-align: center;     
+        width: 50;                            
+        max-width: 50%;
+        padding-right: 50px;
+        background: linear-gradient(#34eb5b 0%, #34ebb7 100%);
+    }
+    .col-form-label{
+        margin-left: 0%;
+        font-size: 20px;
+    }
+    #email{
+        margin-top: 10px;
+        border-radius: 10px;
+        border: 2px solid white;
+        font-size: 20px;
+        font-family: Tahoma;
+        
+    }
+    #password{
+        border-radius: 10px;
+        border: 2px solid white;
+        font-size: 20px;
+        font-family: Tahoma;
+        margin-bottom: 10px;
+    }
+    
+}
+
+@media only screen and (max-width: 600px) {
+    .col-form-label{
+        font-size: 20px;
+    }
+    #email{
+        margin-top: 10px;
+        border-radius: 10px;
+        border: 2px solid white;
+        font-size: 20px;
+        font-family: Tahoma;
+        
+    }
+    #password{
+        border-radius: 10px;
+        border: 2px solid white;
+        font-size: 20px;
+        font-family: Tahoma;
+        margin-bottom: 10px;
+    }
+}
+
+
+h2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

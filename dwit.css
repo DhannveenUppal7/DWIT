@@ -1,0 +1,37 @@
+#message{
+    margin-top: 50px;
+    width: 80%;
+    margin-left: 30px;
+}
+#emailto{
+    margin-top: 50px;
+    width: 80%;
+    margin-left: 30px;
+}
+body{
+    text-align: center;
+}
+
+#send-button{
+    margin-top: 50px;
+}
+#status-button{
+    margin-top: 50px;
+}
+#lastcontacts{
+    text-align: right;
+    margin-right: 25px;
+}
+h2{
+    margin-bottom: 10px;
+}
+img{
+    margin-right: 50px;
+}
+
+label{
+    margin-right: 60px;
+}
+button{
+    margin-right: 50px;
+}
